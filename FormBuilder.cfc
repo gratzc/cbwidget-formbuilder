@@ -24,7 +24,7 @@ component extends="contentbox.model.ui.BaseWidget" singleton{
 	* @defaultValue.hint The string to show if the form slug does not exist
 	*/
 	any function renderIt(required string slug, string defaultValue){
-		var content = runEvent(event='contentbox-formbuilder:form.renderForm',eventArguments=arguments);
+		var content = runEvent(event='contentbox-formbuilder:formRender.renderForm',eventArguments=arguments);
 		if( !isNull(content) ){
 			return content;
 		}
