@@ -1,5 +1,5 @@
 ﻿/**
-* A widget that renders form based on slug from a form built in the FormBuilder Widget
+* A widget that renders form based on slug from a form built in the FormBuilder Module
 */
 component extends="contentbox.model.ui.BaseWidget" singleton{
 
